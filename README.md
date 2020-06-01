@@ -1,2 +1,3 @@
 # javaLessons
-All java lessons
+
+javaသင်ခန်းစာလေးတွေကိုဒီမှာရေးထားပါမယ်
