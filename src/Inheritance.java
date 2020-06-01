@@ -1,4 +1,6 @@
-
+/*
+ * Inheritanceလုပ်ထားတဲ့ClassမှာParent Classရဲ့Variables, FunctionကိုChild Classကယူသုံးလို့ရမယ်
+ * */
 public class Inheritance {
 	public static void main(String[] args) {
 		C1 obj1 = new C1();
@@ -13,7 +15,7 @@ public class Inheritance {
 	}
 }
 
-class C1{
+class C1{//Parent Class
 	int a = 10;
 	int b = 20;
 	int e = 50;
@@ -31,7 +33,7 @@ class C1{
 	}
 }
 
-class C2 extends C1{
+class C2 extends C1{//Child Class
 	int a = 10;
 	int b = 20;
 	int c = 20;
@@ -49,7 +51,8 @@ class C2 extends C1{
 		System.out.println("m3 method of C1");
 	}
 	
+	//eဆိုတဲ့Variableမရှိပေမဲ့C1ရဲ့ClassကိုInheritanceလုပ်ထားတဲ့အတွက်ကြောင့်ခေါ်သုံးလို့ရနေတယ်
 	void m4() {
-		System.out.println("m4 method of C1"+e);
+		System.out.println("m4 method of C1" + e);
 	}
 }
